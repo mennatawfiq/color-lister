@@ -3,15 +3,10 @@
     "name": "Color Lister",
     "version": "1.0",
     "description": "A simple color lister",
-    "content_scripts": [
-        {
-            "matches": [
-                "<all_urls>"
-            ],
-            "js": [
-                "index.js"
-            ]
-        }
+    "permissions": [
+        "tabs",
+        "activeTab",
+        "scripting"
     ],
     "action": {
         "default_icon": {
